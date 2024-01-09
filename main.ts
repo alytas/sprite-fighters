@@ -2965,12 +2965,12 @@ game.onUpdateInterval(1, function () {
     scene.cameraFollowSprite(camera2)
 })
 game.onUpdateInterval(500, function () {
-    projectile1_count = 0
-    projectile2_count = 0
-})
-game.onUpdateInterval(500, function () {
     sheilded1 = 0
     Bot_sheilded = 0
     attacking1 = 0
     Bot_attacking = 0
+})
+game.onUpdateInterval(500, function () {
+    projectile1_count = 0
+    projectile2_count = 0
 })
